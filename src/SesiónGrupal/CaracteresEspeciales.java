@@ -1,5 +1,7 @@
 package SesiónGrupal;
 
+import java.util.Scanner;
+
 public class CaracteresEspeciales {
 
     public static void main(String[] args) {
