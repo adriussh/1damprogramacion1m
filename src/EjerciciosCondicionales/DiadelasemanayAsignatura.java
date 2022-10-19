@@ -1,5 +1,6 @@
 package EjerciciosCondicionales;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class DiadelasemanayAsignatura {
@@ -22,6 +23,6 @@ public class DiadelasemanayAsignatura {
             System.out.println("toca Base de datos");
         }
 
-        if (diadelasemana == 5) System.out.println("toca Fol");
+        if (diadelasemana == 5){ System.out.println("toca Fol");}
     }
 }
