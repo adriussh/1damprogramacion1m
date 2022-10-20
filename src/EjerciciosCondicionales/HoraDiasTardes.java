@@ -10,7 +10,6 @@ public class HoraDiasTardes {
         hora = sc.nextInt();
         if ((hora >= 6) && (hora <= 12)) {
             System.out.println("Buenos días");
-
         }
         if ((hora >= 13 ) && (hora <= 20)) {
             System.out.println("Buenas tardes");

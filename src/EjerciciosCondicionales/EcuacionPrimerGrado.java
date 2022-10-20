@@ -17,7 +17,6 @@ public class EcuacionPrimerGrado {
                 float ecuacion=0;
                 ecuacion=-b/a;
                 System.out.println("El resultado de la ecuacion es " +ecuacion);
-
             }
         }
 
