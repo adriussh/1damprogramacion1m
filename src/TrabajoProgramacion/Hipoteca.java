@@ -29,8 +29,9 @@ import java.util.Scanner;
                     if (division <= 0.8) {
                         int dinero_ahorrado = 0;
                         System.out.println("Introduce el dinero ahorrado que poseas");
+                        float division1 = 0;
                         Scanner id = new Scanner(System.in);
-                        double division1 = 0;
+
 
                         division1 = dinero_ahorrado / vivienda;
                         //si esta operación es correcta le saldra que si se le puede conceder ya que la división es mayor al 20%.
@@ -39,7 +40,7 @@ import java.util.Scanner;
                         if (division1 >= 0.2) {
                             System.out.println("Se le puede conceder la hipoteca de la casa");
                         } else if (division1 < 0.2) {
-                            //si la operación es menor del 20% nos saltara este mensaje diciendo que la hipoteca no sera concedida por la flata de dinero.
+                            //si la operación a  es menor del 20% nos saltara este mensaje diciendo que la hipoteca no sera concedida por la flata de dinero.
 
                             System.out.println("No podemos concederte la hipoteca,lo sentimos");
                             return;
@@ -56,5 +57,3 @@ import java.util.Scanner;
 
         }
     }
-
-

@@ -13,7 +13,7 @@ public class TiempoenCarunObjeto {
         int gravedad=0;
         double t=0;
         t=Math.sqrt(2*h/g);
-        final double g = 9.81; // las constantes se declaran con final
+        final double a = 9.81; // las constantes se declaran con final
         double s = Math.sqrt(2*h/g);
 
         System.out.printf("El objeto tarda %.2f segundos en caer.\n", s);
