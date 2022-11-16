@@ -1,7 +1,7 @@
 package OperadoresAritmeticos;
 
 public class OperadorInstance {
-    private static Object nombre;
+    public static Object nombre;
 
     public static void main(String[] args) {
         Integer i=5;
