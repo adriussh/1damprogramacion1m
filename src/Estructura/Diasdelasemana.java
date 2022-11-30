@@ -5,6 +5,14 @@ import java.util.Scanner;
 
 public class Diasdelasemana {
 
+    public String DOMINGO;
+    public String SABADO;
+    public String VIERNES;
+    public String JUEVES;
+    public String MIERCOLES;
+    public String MARTES;
+    public Diasdelasemana LUNES;
+
     public static void main(String[] args) {
         int dia=0;
         Scanner sc = new Scanner(System.in);

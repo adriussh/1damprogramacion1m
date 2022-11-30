@@ -3,9 +3,7 @@ package SesionArray;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static OperadoresAritmeticos.OperadorInstance.nombre;
-
-public class BinarySherch16 {
+public class BinarySherch16Examen {
     public static void main(String[] args) {
 
         String [] lista= {"Adrian","Pepe","Alfredo","Antonio"};
