@@ -4,34 +4,42 @@ import java.util.Scanner;
 
 public class Examenejercicios {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        int radio = 0;
-        int base = 0;
-        int altura = 0;
-        int triangulo;
-        double perimetro, area;
-        double pi = 3.1416;
-        do {
-            System.out.println("Ingrese el radio del circulo a calcular: ");
-            radio = entrada.nextInt();
-            if (radio < 0) {
-                System.out.println("El numero no puede ser negativo");
-            }
-        } while (radio < 0);
-        perimetro = (int) (radio ^ 2) * pi;
-        do {
-        System.out.println("ingrese la base del triangulo");
-        base = entrada.nextInt();
-        if (base < 0) {
-            System.out.println("El numero no puede ser negativo");
-        }
-            System.out.println("Ingrese la altura");
-        altura = entrada.nextInt();
-        if (altura < 0) {
-            System.out.println("El numero no puede ser negativo");
-        }
-        } while (base < 0);
-        triangulo = (int) (base*altura)/2;
 
+        Scanner entrada = new Scanner(System.in);
+        double radio = 0;
+        double base = 0;
+        double altura = 0;
+        double perimetro, area;
+
+      System.out.println("Menu de areas");
+        System.out.println("Area de un circulo");
+        System.out.println("Area de un triangulo");
+        System.out.println("Area de un cuadrado");
+        System.out.println("introduzcame el area que quieres calcular");
+        Scanner sc = new Scanner(System.in);
+        String opcion= sc.next().toLowerCase();
+        if (opcion.equals("circulo")){
+
+            System.out.println("Introduzcame el radio");
+            radio =sc.nextDouble();
+            calcular_circulo(radio);
+
+        }
+        if (opcion.equals("triangulo"));
+
+        System.out.println("Introduzca la altura");
+        System.out.println("Introduzca la base");
+        altura = sc.nextDouble();
+        base = sc.nextDouble();
+        calcular_triangulo(altura);
+
+    }
+
+    private static void calcular_triangulo(double altura) {
+        System.out.println("El area del triangulo es"+Math.sqrt(base*altura)/2);
+    }
+
+    private static void calcular_circulo(double radio) {
+        System.out.println("el area del circulo es"+Math.sqrt(radio)*Math.PI);
     }
 }

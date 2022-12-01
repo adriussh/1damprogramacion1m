@@ -1,4 +1,4 @@
-package SesionArray;
+package EjerciciosExamen;
 
 import java.util.Arrays;
 import java.util.Scanner;
