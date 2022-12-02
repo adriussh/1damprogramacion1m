@@ -25,7 +25,6 @@ public class Examenejercicios {
             System.out.println("Introduzcame el radio");
             radio =sc.nextDouble();
             calcular_circulo(radio);
-
         }
         if (opcion.equals("triangulo"));
 
